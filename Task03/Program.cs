@@ -11,7 +11,7 @@
 Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine());
 
-if (n < 100) Console.Write( "Третьей цифры нет");
+if (n < 100) Console.Write( $"Третьей цифры чила {n} -> нет ");
 else
 {
     int n1 = n;
